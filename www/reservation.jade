@@ -1,0 +1,28 @@
+include ./layout
+
++layout
+  .list(style="background-color:#f5f5f5")
+    br
+    br
+    label.item.item-input.item-stacked-label(style="background-color:#fff")
+      span.input-label First Name
+      input(type="text", placeholder="Jiho")
+    label.item.item-input.item-stacked-label(style="background-color:#fff")
+      span.input-label Last Name
+      input(type="text", placeholder="Kim")
+    br 
+    br 
+    label.item.item-input.item-stacked-label(style="background-color:#fff")
+      span.input-label Comments
+      textarea(placeholder="ALL I NEED IS WIFI !!")
+    label.item.item-input.item-stacked-label(style="background-color:#fff")
+      span.input-label Passport ID
+      input(type="text", placeholder="M122334023420")
+    br 
+    br 
+
+  button.button.button-positive.button-full.icon-left
+    i.icon.ion-checkmark-circle
+    | Transfer Code
+
+  script(src="/javascripts/reservation.js")

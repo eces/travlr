@@ -12,17 +12,17 @@ steroids.config.tabBar.tabs = [
   {
     title: "Featured"
     icon: "icons/star-outline@2x.png"
-    location: "http://localhost/index.html"
+    location: "http://localhost/featured.html"
   },
   {
     title: "Discover"
     icon: "icons/location-outline@2x.png"
-    location: "http://www.google.com"
+    location: "http://localhost/discover.html"
   },
   {
     title: "Visit"
     icon: "icons/pricetag-outline@2x.png"
-    location: "http://www.google.com"
+    location: "http://localhost/visit.html"
   }
 ]
 
@@ -33,12 +33,24 @@ steroids.config.tabBar.selectedTabTintColor = "#34ba9c"
 # steroids.config.tabBar.backgroundImage = ""
 
 # ## Preloads
-# steroids.config.preloads = [
-#   {
-#     id: "google"
-#     location: "http://www.google.com"
-#   }
-# ]
+steroids.config.preloads = [
+  {
+    id: "featured"
+    location: "http://localhost/featured.html"
+  }
+  {
+    id: "discover"
+    location: "http://localhost/discover.html"
+  }
+  {
+    id: "visit"
+    location: "http://localhost/visit.html"
+  }
+  {
+    id: "reservation"
+    location: "http://localhost/reservation.html"
+  }
+]
 
 # ## Drawers
 # steroids.config.drawers =

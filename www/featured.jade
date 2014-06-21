@@ -1,0 +1,48 @@
+include ./layout
+
+//- +layoutWithPadding
++layout
+  .list.card
+    .item.item-avatar
+      img(src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c37.37.466.466/s320x320/1016400_4289301210202_464648153_n.jpg")
+      h2 Jiho Kim
+      p June 21
+    .item.item-image
+      img(src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10329192_10203119012830371_7981630265316177888_n.jpg?oh=d5f349d0b344ddd034636034ada3b8d7&oe=542127FC&__gda__=1411978409_6c7b3178009523f1c4c8834af3a5d310")
+    .item.item-body
+      p
+        | This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+        | the content is from a card-body consisting of an image and paragraph text. The footer
+        | consists of tabs, icons aligned left, within the card-footer ...
+      p
+        a.subdued(href="#") Read more
+
+  .list
+    a.item.item-thumbnail-left(href="#")
+      img(src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/10155301_682623425137531_3467442908875602744_n.jpg")
+      h2 Instragram Photos
+      p Unveil heavy followers
+      
+    a.item.item-thumbnail-left(href="#")
+      img(src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/426016_10150532999372423_1515108391_n.jpg")
+      h2 Blah Blash
+      p No more killing yelling punching
+
+    a.item.item-thumbnail-left(href="#")
+      img(src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/1006094_10152729101362571_2065152453_n.jpg")
+      h2 How to Destroy The Hotel You Stayed
+      p Idiots said
+
+  .card
+    .item.item-text-wrap
+      | 호스탤랩스에서 업데이트 힙니다. 
+      | This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+      | the content is from a card-body consisting of an image and paragraph text. The footer
+      | consists of tabs, icons aligned left, within the card-footer ... 
+    
+  p.copyright
+    | HLABS 2014 &middot; ALL RIGHTS RESERVED
+    br
+    a(href="mailto:support@hlabs.kr") CONTACT US
+
+  script(src="/javascripts/featured.js")
