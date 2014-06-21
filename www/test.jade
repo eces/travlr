@@ -1,0 +1,57 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title 대한민국 1등 사장님을 위한 호스텔 매니저
+    //- meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="/css/landing.css", rel="stylesheet")
+    // script(type='text/javascript', src='//use.typekit.net/tld5vsy.js')
+    // script(type='text/javascript')
+    //   try{Typekit.load();}catch(e){}
+
+  body
+    h1 호스텔랩스 2014
+    h2 HOSTEL LABS
+    a(href='http://hostellabs.com') hostellabs.com
+    p 준비중입니다.
+    br
+    p COPYRIGHT 2014 에이치랩스 
+    | Website: 
+    a(href='http://hlabs.kr') hlabs.kr 
+    br
+    | Email: 
+    a(href='mailto:hlabs+webmaster@hlabs.kr') hlabs+webmaster@hlabs.kr
+    //
+        h1= locals.__('hello')
+        if locals.error
+          div.palette.palette-turquoise
+            =locals.error
+        if locals.message
+          div.palette.palette-turquoise
+            =locals.message
+        p 호스텔 가입/추가
+        #signup
+          form(data-bind='submit: submit')
+            input(data-bind='value: companyName', type='text', placeholder='호스텔 이름')
+            input(data-bind='value: companyPhone', type='text', placeholder='호스텔 연락처')
+            input(data-bind='value: userName', type='text', placeholder='사장님 성함')
+            input(data-bind='value: userEmail', type='text', placeholder='사장님 이메일')
+            input(data-bind='value: password', type='password', placeholder='사장님 비밀번호')
+            input(data-bind='value: password2', type='password', placeholder='비밀번호 확인')
+            input(data-bind='value: userPhone', type='text', placeholder='사장님 연락처')
+            button(type='submit') 회원가입
+
+        p 로그인 폼
+        #signin
+          form(data-bind='submit: submit')
+            input(data-bind='value: email', type='text', placeholder='이메일')
+            input(data-bind='value: password', type='password', placeholder='비밀번호')
+            button(type='submit') 로그인
+
+        p
+            a(href='/test/confirm') 텐프로 게스트하우스 심사완료
+
+            
+        script(src="/bower_components/jquery/dist/jquery.min.js")
+        script(src="/bower_components/knockout/index.js")
+        script(src="/js/landing.js")

@@ -12,7 +12,6 @@
   ],
   "dependencies": {
     "steroids-js": "3.1.x",
-    "ionic": "driftyco/ionic-bower#~0.9.26",
-    "ionicons": "~1.5.2"
+    "ionic": "driftyco/ionic-bower#~0.9.26"
   }
 }
