@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width">
   <title>My Steroids App</title>
 
-  <link rel="stylesheet" href="/vendor/ionic/css/ionic.css" />
-  <link rel="stylesheet" href="/stylesheets/application.css" />
+  <link rel="stylesheet" href="/components/ionic/css/ionic.min.css" />
+  <link rel="stylesheet" href="/components/ionicons/css/ionicons.min.css" />
+  <link rel="stylesheet" href="/stylesheets/base.css" />
 
   <script src="/javascripts/onerror.js"></script>
   <script src="/javascripts/console.log.js"></script>
@@ -15,11 +16,22 @@
   <script src="http://localhost/cordova.js"></script>
   <script src="/components/steroids-js/steroids.js"></script>
 
-  <script src="/javascripts/application.js"></script>
+  <script src="/javascripts/app.js"></script>
 </head>
 <body class="content">
   <div class="padding">
     <h1>Welcome to Steroids!</h1>
+    <button class="button button-light">
+  button-light
+</button>
+
+<button class="button button-stable">
+  button-stable
+</button>
+
+<button class="button button-positive">
+  button-positive
+</button>
 
     <p>Awesome! This file is located at <strong>www/index.html</strong> &mdash; open it, change some text, save the file, and press enter in the Terminal window running <strong>$ steroids connect</strong>. The changes are updated to all connected devices. Cool, ain't it?</p>
 

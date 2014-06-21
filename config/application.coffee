@@ -6,26 +6,30 @@ steroids.config.name = "travlr"
 # ## Start Location
 steroids.config.location = "http://localhost/index.html"
 
-# ## Tab Bar
-# steroids.config.tabBar.enabled = true
-# steroids.config.tabBar.tabs = [
-#   {
-#     title: "Index"
-#     icon: "icons/pill@2x.png"
-#     location: "http://localhost/index.html"
-#   },
-#   {
-#     title: "Internet"
-#     icon: "icons/telescope@2x.png"
-#     location: "http://www.google.com"
-#   }
-# ]
+## Tab Bar
+steroids.config.tabBar.enabled = true
+steroids.config.tabBar.tabs = [
+  {
+    title: "Featured"
+    icon: "icons/star-outline@2x.png"
+    location: "http://localhost/index.html"
+  },
+  {
+    title: "Discover"
+    icon: "icons/location-outline@2x.png"
+    location: "http://www.google.com"
+  },
+  {
+    title: "Visit"
+    icon: "icons/pricetag-outline@2x.png"
+    location: "http://www.google.com"
+  }
+]
 
-# steroids.config.tabBar.tintColor = "#000000"
-# steroids.config.tabBar.tabTitleColor = "#00aeef"
-# steroids.config.tabBar.selectedTabTintColor = "#ffffff"
-# steroids.config.tabBar.selectedTabBackgroundImage = "icons/pill@2x.png"
-
+steroids.config.tabBar.tintColor = "#ffffff"
+steroids.config.tabBar.tabTitleColor = "#444444"
+steroids.config.tabBar.selectedTabTintColor = "#34ba9c"
+# steroids.config.tabBar.selectedTabBackgroundImage = "icons/tab_bg@2x.png"
 # steroids.config.tabBar.backgroundImage = ""
 
 # ## Preloads
@@ -62,12 +66,12 @@ steroids.config.location = "http://localhost/index.html"
 #   location: "http://localhost/initialView.html"
 
 # ## Navigation Bar
-steroids.config.navigationBar.tintColor = "#00aeef"
+steroids.config.navigationBar.tintColor = "#34ba9c"
 steroids.config.navigationBar.titleColor = "#ffffff"
-steroids.config.navigationBar.buttonTintColor = "#ffffff"
+steroids.config.navigationBar.buttonTintColor = "#f5f5f5"
 
-# steroids.config.navigationBar.borderColor = "#000000"
-# steroids.config.navigationBar.borderSize = 2
+steroids.config.navigationBar.borderColor = "#3CAB93"
+steroids.config.navigationBar.borderSize = 1
 
 # steroids.config.navigationBar.landscape.backgroundImage = ""
 # steroids.config.navigationBar.portrait.backgroundImage = ""
@@ -77,7 +81,7 @@ steroids.config.loadingScreen.tintColor = "#262626"
 
 # ## iOS Status Bar
 steroids.config.statusBar.enabled = true
-steroids.config.statusBar.style = "default"
+steroids.config.statusBar.style = "light"
 
 # ## File Watcher
 # steroids.config.watch.exclude = ["www/my_excluded_file.js", "www/my_excluded_dir"]
